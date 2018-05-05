@@ -3,6 +3,11 @@ package br.unisal.exceptions;
 import javax.xml.soap.*;
 import javax.xml.ws.soap.SOAPFaultException;
 
+/**
+ * 
+ * @author jether.rodrigues
+ *
+ */
 public class CalculatorSOAPFaultException extends SOAPFaultException {
 	
 	/**

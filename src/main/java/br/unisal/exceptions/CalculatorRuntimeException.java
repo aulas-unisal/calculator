@@ -1,5 +1,10 @@
 package br.unisal.exceptions;
 
+/**
+ * 
+ * @author jether.rodrigues
+ *
+ */
 public class CalculatorRuntimeException extends RuntimeException {
 
 	/**
