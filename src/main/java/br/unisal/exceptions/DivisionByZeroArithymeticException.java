@@ -3,9 +3,7 @@ package br.unisal.exceptions;
 /**
  * 
  * @author jether.rodrigues
- *
- *         Poderia utilizar "extends Exception", no entanto é muito genérico já
- *         que o domínio do serviço é voltado a operações matemáticas
+ * 
  */
 public class DivisionByZeroArithymeticException extends ArithmeticException {
 
@@ -17,7 +15,7 @@ public class DivisionByZeroArithymeticException extends ArithmeticException {
 	public DivisionByZeroArithymeticException() {
 	}
 	
-	public DivisionByZeroArithymeticException(String errorMessage) {
-		super(errorMessage);
+	public DivisionByZeroArithymeticException(String message) {
+		super(message);
 	}
 }
