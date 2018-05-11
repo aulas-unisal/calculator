@@ -111,7 +111,8 @@
         <div class="login-page">
             <div class="form">
                 <p>Serviço CALCULATOR no ar, acesse o WSDL: <br/>
-                	<a href="http://localhost:8080/calculator/Calculator">Calculator</a> 
+                	<a href="http://localhost:8080/calculator/Calculator">Calculator Localhost</a> 
+                	<a href="https://calculator-unisal.herokuapp.com/Calculator">Calculator Heroku</a>
                 </p>
             </div>
         </div>
